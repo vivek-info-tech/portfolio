@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ body{
+    background-color: black;
+ }
+ @layer utilities {
+    .text-shadow {
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Simple text shadow */
+    }
+  
+    .text-glow {
+      text-shadow: 0 0 10px rgba(0, 255, 255, 0.2), 0 0 10px rgba(0, 255, 255, 0.5); /* Glowing text */
+    }
+  
+    .text-glow-strong {
+      text-shadow: 0 0 20px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 1); /* Stronger glow */
+    }
+  }
