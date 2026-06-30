@@ -78,7 +78,7 @@ export default function Hero() {
             <a href="#contact" style={{padding: "12px 24px"}} className="inline-flex shadow-sm shadow-sky-400 items-center gap-2 px-7 py-3 rounded-lg bg-sky-400 text-[#08090e] font-mono text-sm font-bold tracking-[0.06em] hover:bg-sky-300 transition-colors">
               <Mail size={18} /> CONTACT ME
             </a>
-            <a href="/resume.pdf" download="Vivek_Kumar_Resume.pdf" style={{padding:"12px 24px" }} className="inline-flex shadow shadow-sky-400/20 items-center gap-2 py-3 rounded-lg bg-sky-400/10 border border-sky-400/30 text-sky-400 font-mono text-sm font-bold tracking-[0.06em] hover:bg-sky-400/20 transition-colors">
+            <a href=" ./assets/resume.pdf" download="Vivek_Kumar_Resume.pdf" style={{padding:"12px 24px" }} className="inline-flex shadow shadow-sky-400/20 items-center gap-2 py-3 rounded-lg bg-sky-400/10 border border-sky-400/30 text-sky-400 font-mono text-sm font-bold tracking-[0.06em] hover:bg-sky-400/20 transition-colors">
               <Download size={18} /> RESUME
             </a>
             <div className="flex gap-4 ml-0 sm:ml-2">
